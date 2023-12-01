@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: black;
+  }
+  
+  #wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    border-radius: 5%;
+  }
+  
+  
+  #text {
+    margin-top: 20px;
+  }
+  div {
+    position: relative;
+  }
+  #quote-box {
+    border-radius: 3px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: white;
+  }
+  #quote-box .quote-text {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 400;
+    font-size: 1.75em;
+  }
+  #quote-box .quote-text i {
+    font-size: 1em;
+    margin-right: 0.4em;
+  }
+  #quote-box .quote-author {
+    padding-top: 20px;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-size: 1em;
+    text-align: right;
+  }
+
+.fa-twitter:before {
+  content: "\f081";
+}
+
+#quote-box .buttons .button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 0.85em;
+  padding: 10px 10px 8px 10px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#quote-box .buttons .button#tweet-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+}
+
+#quote-box .buttons .button#new-quote {
+  float: right;
+}
